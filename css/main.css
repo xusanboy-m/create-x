@@ -21,7 +21,13 @@ ol {
 a {
   text-decoration: none;
 }
-
+.home {
+  background-image: url(../image/homebackgraund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -84,15 +90,15 @@ a {
   align-items: center;
   gap: 5px;
 }
-.header__link {
-  font-size: 16px;
+.header__item {
+  font-size: 20px;
   font-weight: 700;
   color: #424551;
 }
 
 /* hero section sytle */
 .hero {
-  padding: 80px 0;
+  padding: 112px 0;
 }
 .hero__wrapper {
   display: flex;
@@ -113,7 +119,7 @@ a {
 /* hero section ends */
 /* stats section styls  */
 .stats {
-  padding: 48px 0;
+  padding: 112px 0;
 }
 .stats__wrapper {
   display: flex;
