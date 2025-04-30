@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.3s linear;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -27,6 +28,7 @@ a {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  min-width: ;
 }
 .header__wrapper {
   display: flex;
@@ -66,6 +68,9 @@ a {
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+.section__btn:hover {
+  opacity: 0.8;
+}
 .section__btn2 {
   background-color: transparent;
   padding: 16px 40px;
@@ -84,6 +89,13 @@ a {
   line-height: 130%;
   font-weight: 900;
   color: #1e212c;
+}
+.section__subtitle {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+  color: #1e212c;
+  text-transform: uppercase;
 }
 .header__navbar {
   display: flex;
@@ -144,3 +156,36 @@ a {
   color: #1e212c;
 }
 /* stats styles ends */
+/* about section style */
+.about__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 35px;
+}
+
+.about__title {
+  font-size: 56px;
+  color: #1e212c;
+  margin: 8px 0 24px 0;
+}
+.about__item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+  align-items: start;
+}
+.amout__check {
+  margin-top: 4px;
+}
+.about__btn {
+  margin-top: 32px;
+}
+.about__text {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400px;
+  color: #1e212c;
+}
+/* about section style ends */
