@@ -189,3 +189,126 @@ a {
   color: #1e212c;
 }
 /* about section style ends */
+/* courses section style */
+.courses {
+  margin: 128px 0;
+}
+.courses__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.courses__bottom {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.courses__card {
+  width: calc((1230px - 24px) / 2);
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 4px;
+  border: 1px solid #e5ebed;
+}
+.courses__right {
+  padding: 24px;
+}
+.courses__cart--cotigory {
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400px;
+  color: #fff;
+  background-color: #03cea4;
+}
+.courses__cart--cotigory2 {
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400px;
+  color: #fff;
+  background-color: #5a87fc;
+}
+.courses__cart--cotigory3 {
+  background-color: #f89828;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #fff;
+}
+.courses__cart--cotigory4 {
+  background-color: #f52f6e;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #fff;
+}
+.courses__card--left {
+  margin: 10px;
+}
+/* courses section style ends */
+/* benifits section style */
+.benifits__content {
+  text-align: center;
+}
+.benifits__tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  cursor: pointer;
+}
+.benifits__item {
+  flex: 1;
+  text-align: center;
+}
+.benifits__item__btn.active {
+  color: #ff3f3a;
+  border: 1px solid #ff3f3a;
+  border-radius: 4px;
+  padding: 8px;
+}
+.benifits__item__btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  color: #9a9ca5;
+  width: 100%;
+}
+.benifits__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.benifits__bottom--left--title {
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: 900;
+  color: #1e212c;
+}
+.benifits__botton--left--text {
+  color: #424551;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  margin: 20px 0 20px 0;
+}
+/* benifits section style ends */
