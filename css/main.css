@@ -28,7 +28,6 @@ a {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  min-width: ;
 }
 .header__wrapper {
   display: flex;
@@ -274,11 +273,12 @@ a {
   flex: 1;
   text-align: center;
 }
-.benifits__item__btn.active {
+.benifits__item__btn1.active {
   color: #ff3f3a;
   border: 1px solid #ff3f3a;
+  padding: 8px 10px;
   border-radius: 4px;
-  padding: 8px;
+  background: none;
 }
 .benifits__item__btn {
   display: flex;
@@ -313,3 +313,32 @@ a {
   margin: 20px 0 20px 0;
 }
 /* benifits section style ends */
+/* sertificate section styles */
+.sertificate {
+  margin: 20px;
+}
+.sertificate__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+}
+.sertificate__left--title {
+  margin: 30px 0;
+}
+.sertificate__left--description {
+  color: #424551;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+}
+.sertificate__left--logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* sertificate section style ens */
