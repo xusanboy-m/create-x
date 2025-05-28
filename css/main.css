@@ -342,3 +342,60 @@ a {
 }
 
 /* sertificate section style ens */
+/* team section style */
+.meat__team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.team__subtitle {
+  margin: 30px;
+}
+.team__bottom {
+  margin: 20px;
+}
+.team__bottom--cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.team__card {
+  text-align: center;
+}
+.team__btns {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.team__btn1 {
+  background: none;
+  border: none;
+}
+.team__btn2 {
+  background: #ff3f3a;
+  border: 1px solid #ff3f3a;
+  border-radius: 50%;
+  padding: 10px;
+}
+.team__card--image {
+  padding: 15px 15px 015px;
+  background-color: #ffcf2d;
+}
+.card__text {
+  color: #424551;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 15px;
+}
+.card__text {
+  color: #787a80;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+}
+/* team sectio ends */
