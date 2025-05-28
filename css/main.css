@@ -369,11 +369,13 @@ a {
   align-items: center;
   gap: 25px;
 }
-.team__btn1 {
+.team__btn1,
+.comment__middle--btn {
   background: none;
   border: none;
 }
-.team__btn2 {
+.team__btn2,
+.comment__middle--btn2 {
   background: #ff3f3a;
   border: 1px solid #ff3f3a;
   border-radius: 50%;
@@ -399,3 +401,78 @@ a {
   letter-spacing: 0%;
 }
 /* team sectio ends */
+/* comment section style */
+.clents {
+  background: url(../image/Background.png);
+}
+.comment__wrapper {
+  padding: 40px;
+}
+.comment__top {
+  text-align: center;
+}
+.comment__middle {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.comment__middle--cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.comment__middle--card {
+  display: flex;
+  gap: 30px;
+  background-color: #fff;
+  padding: 40px;
+}
+.cvots {
+  height: 20px;
+  width: 28px;
+}
+
+.comment__middle--description {
+  padding: 0 0 30px 0;
+  color: #424551;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.comment__card--peaple {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.peaple--img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+.comment__bottom {
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+.comment__bottom--spans {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.comment__bottom--span1 {
+  color: #424551;
+  border: 3px solid #424551;
+  width: 32px;
+  border-radius: 5px;
+}
+.comment__bottom--span {
+  color: #424551;
+  opacity: 0.6;
+  border: 3px solid #424551;
+  width: 32px;
+  border-radius: 5px;
+}
+/* coment section ends */
