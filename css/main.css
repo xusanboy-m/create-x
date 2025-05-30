@@ -41,6 +41,7 @@ a {
   align-items: center;
   gap: 32px;
 }
+
 .header__outh {
   display: flex;
   align-items: center;
@@ -415,13 +416,13 @@ a {
   margin: 20px;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 64px;
 }
 .comment__middle--cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
 }
 .comment__middle--card {
   display: flex;
@@ -429,7 +430,7 @@ a {
   background-color: #fff;
   padding: 40px;
 }
-.cvots {
+.quotes {
   height: 20px;
   width: 28px;
 }
